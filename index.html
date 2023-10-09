@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather API</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Weather</h1>
+        <input type="text" id="cityInput" placeholder="Enter city">
+        <button id="searchBtn">Search</button>
+        <div id="weatherInfo">
+            <h2 id="cityName"></h2>
+            <div id="weatherData">
+                <p id="temperature"></p>
+                <p id="condition"></p>
+                <p id="humidity"></p>
+                <p id="windSpeed"></p>
+                <img id="weatherIcon" src="" alt="">
+            </div>
+            <p id="errorMessage"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

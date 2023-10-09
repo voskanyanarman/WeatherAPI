@@ -1,0 +1,53 @@
+.container {
+    text-align: center;
+    margin: 50px;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    font-size: 24px;
+}
+
+.search {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-right: 10px;
+    font-size: 16px;
+
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.weather-info {
+    text-align: center;
+}
+
+.error {
+    color: #FF0000;
+}
+
+#weatherIcon {
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+}
